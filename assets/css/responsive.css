@@ -214,6 +214,9 @@
   .about-section .about_wrapper .about-imagecircle img {
     width: 150px;
   }
+  .about-imagecircle svg {
+    width: 100px;
+  }
   .about-section .about_wrapper .years {
     right: -250px;
     top: -126px;
@@ -352,6 +355,9 @@
   }
   .aboutus-section .about_wrapper .about-imagecircle img {
     width: 150px;
+  }
+  .about-imagecircle svg {
+    width: 100px;
   }
   .aboutus-section .about_wrapper .years {
     right: -250px;
@@ -811,6 +817,9 @@
   }
   .about-section .about_wrapper .about-imagecircle img {
     width: 125px;
+  }
+  .about-imagecircle svg {
+    width: 80px;
   }
   .about-section .about_wrapper .about-dot {
     left: -10px;
@@ -1297,6 +1306,9 @@
   }
   .aboutus-section .about_wrapper .about-imagecircle img {
     width: 125px;
+  }
+  .about-imagecircle svg {
+    width: 80px;
   }
   .aboutus-section .service_content {
     padding-left: 45px;
@@ -2176,6 +2188,9 @@
   .about-section .about_wrapper .about-imagecircle img {
     width: 114px;
   }
+  .about-imagecircle svg {
+    width: 75px;
+  }
   .about-section .about_wrapper .about-dot {
     left: 98px;
     top: -102px;
@@ -2634,6 +2649,9 @@
   }
   .aboutus-section .about_wrapper .about-imagecircle img {
     width: 114px;
+  }
+  .about-imagecircle svg {
+    width: 75px;
   }
   .aboutus-section .service_content {
     text-align: center;
@@ -3336,6 +3354,9 @@
   .about-section .about_wrapper .about-imagecircle img {
     width: 100px;
   }
+  .about-imagecircle svg {
+    width: 60px;
+  }
   .about-section .about_wrapper .about-dot {
     left: 10px;
     top: -98px;
@@ -3768,6 +3789,9 @@
   }
   .aboutus-section .about_wrapper .about-imagecircle img {
     width: 100px;
+  }
+  .about-imagecircle svg {
+    width: 60px;
   }
   .aboutoffer-section {
     padding: 55px 0 55px;
@@ -4302,6 +4326,9 @@
   .about-section .about_wrapper .about-imagecircle img {
     width: 90px;
   }
+  .about-imagecircle svg {
+    width: 60px;
+  }
   .about-section .about_wrapper .about-dot {
     display: none;
   }
@@ -4602,6 +4629,9 @@
   }
   .aboutus-section .about_wrapper .about-imagecircle img {
     width: 90px;
+  }
+  .about-imagecircle svg {
+    width: 60px;
   }
   .aboutoffer-section {
     padding: 55px 0 53px;
