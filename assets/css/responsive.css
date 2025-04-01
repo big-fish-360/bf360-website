@@ -302,9 +302,7 @@
   .footer-section .footer-leftlayer {
     display: none;
   }
-  .footer-section::before {
-    width: 70%;
-  }
+
   .footer-section .middle-portion .footer-logo {
     margin-bottom: 4px;
   }
@@ -331,7 +329,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 120px 0;
+    padding: 120px 0 0;
   }
   .aboutus-section .about_wrapper .aboutus-image1 {
     left: 40px;
@@ -1150,9 +1148,7 @@
   .footer-section {
     padding: 110px 0 0;
   }
-  .footer-section::before {
-    height: 472px;
-  }
+
   .footer-section .middle-portion {
     margin-bottom: 40px;
   }
@@ -1256,7 +1252,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 160px 0 163px;
+    padding: 160px 0 0;
   }
   .aboutus-section .offer-toplayer img {
     width: 740px;
@@ -2502,11 +2498,7 @@
   .footer-section {
     padding: 80px 0 0;
   }
-  .footer-section::before {
-    height: 100%;
-    width: 100%;
-    border-radius: 0;
-  }
+
   .footer-section .middle-portion {
     margin-bottom: 30px;
   }
@@ -2597,7 +2589,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 64px 0 10px;
+    padding: 64px 0 0;
   }
   .aboutus-section .offer-toplayer img {
     width: 600px;
@@ -3107,6 +3099,9 @@
   }
   .sub-banner .banner-section .banner_content .blog-rightcircle {
     top: -46px;
+  }
+  .bubble_outer_container {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -3695,7 +3690,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 54px 0 10px;
+    padding: 54px 0 0;
   }
   .aboutus-section .service_content h2 {
     padding: 0 110px;
@@ -4549,7 +4544,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 54px 0 2px;
+    padding: 54px 0 0;
   }
   .aboutus-section .service_content h2 {
     padding: 0 30px;
@@ -4801,5 +4796,10 @@
   .contact-section .need_content {
     padding: 26px 20px;
     width: 100%;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 }
