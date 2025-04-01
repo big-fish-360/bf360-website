@@ -769,6 +769,7 @@ p {
 .offer-section .offer_boxcontent:hover h4 {
   color: var(--e-global-color-white);
 }
+
 .offer-section .offer_content {
   text-align: center;
 }
@@ -3168,4 +3169,8 @@ p {
 
 .service-box:hover svg {
   fill: #ffffff;
+}
+
+.offer-section .offer_boxcontent:hover p {
+  color: var(--e-global-color-white);
 }
