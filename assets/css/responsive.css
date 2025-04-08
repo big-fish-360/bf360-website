@@ -4306,8 +4306,8 @@
     border-radius: 60px 0 60px 60px;
   }
   .about-section .about_wrapper .years {
-    right: -120px;
-    top: -350px;
+    right: -228px;
+    top: -348px;
   }
   .about-section .about_wrapper .years .value {
     font-size: 26px;
@@ -4318,7 +4318,7 @@
     line-height: 18px;
   }
   .about-section .about_wrapper .years .text {
-    padding: 0 120px;
+    padding: 0 240px;
   }
   .about-section .about_wrapper .about-imagecircle {
     right: 0;
