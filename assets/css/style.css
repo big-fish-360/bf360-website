@@ -22,14 +22,14 @@ Project:  Technofy
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --e-global-color-primary: #202020;
-  --e-global-color-secondary: #f86823;
+  --e-global-color-primary: #103659;
+  --e-global-color-secondary: #f15f2f;
   --e-global-color-text: #656565;
-  --e-global-color-accent: #f86823;
+  --e-global-color-accent: #f15f2f;
   --e-global-color-white: #ffffff;
   --e-global-color-light-white: #d6d8e2;
-  --e-global-color-very-dark-mostly-black-blue: #010521;
-  --e-button-gradient-1: #fa6220;
+  --e-global-color-very-dark-mostly-black-blue: #103659;
+  --e-button-gradient-1: #f15f2f;
   --e-button-gradient-2: #ef8b33;
   --e-global-color-desaturated-blue: #353956;
   --e-global-color-bright-orange: #f68a49;
@@ -107,7 +107,7 @@ p {
 
 .banner_outer {
   background-image: linear-gradient(
-    to right,
+    to left,
     var(--e-button-gradient-1) 0%,
     var(--e-button-gradient-2) 100%
   );
@@ -348,12 +348,13 @@ p {
 }
 .banner-section .banner_wrapper .banner-image {
   position: absolute;
-  right: -4px;
-  top: -160px;
+  right: 0px;
+  top: -80px;
   z-index: 1;
 }
 .banner-section .banner_wrapper .banner-image img {
-  border-radius: 300px 300px 0 300px;
+  width: 500px;
+  border-radius: 50% 50% 0 50%;
 }
 .banner-section .banner_wrapper .banner-vedioimage {
   position: absolute;
@@ -361,7 +362,17 @@ p {
   left: 40px;
   z-index: 1;
   transition: all 0.3s ease-in-out;
+  background-color: #6ebfd4;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
 }
+.banner-section .banner_wrapper .banner-vedioimage svg {
+  margin: 36px;
+  fill: #ffffff;
+  height: 48px;
+  width: 48px;
+}
+
 .banner-section .banner_wrapper .banner-vedioimage:hover {
   transform: translateY(-5px);
 }
@@ -1824,7 +1835,7 @@ p {
 
 .sub-banner {
   background-image: linear-gradient(
-    to right,
+    to left,
     var(--e-button-gradient-1) 0%,
     var(--e-button-gradient-2) 100%
   );
