@@ -1789,7 +1789,7 @@
   }
   .contact-section .contact-box .box-content {
     padding-left: 36px;
-    margin-top: 14px;
+    margin-top: 24px;
   }
   .contact-section .contact-box p {
     font-size: 18px;
@@ -3129,7 +3129,7 @@
   }
   .contact-section .contact-box .box-content {
     padding-left: 0;
-    margin-top: 0;
+    margin-top: 24px;
   }
   .contact-section .need_content .send_now {
     font-size: 16px;

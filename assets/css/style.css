@@ -2643,7 +2643,7 @@ p {
   outline: none;
 }
 .consultation-section {
-  background: var(--e-global-color-very-dark-mostly-black-blue);
+  background: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2658,7 +2658,16 @@ p {
   left: 0;
   top: 0;
   opacity: 15%;
-  background-image: url("../images/service-consultationbackground.jpg");
+}
+.consultation-section .offer-toplayer {
+  position: absolute;
+  left: -36px;
+  top: 0;
+}
+.consultation-section .offer-bottomlayer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .consultation-section .consultation-leftimage {
   position: absolute;
@@ -2666,10 +2675,11 @@ p {
   top: 60px;
 }
 .consultation-section .consultation_content h2 {
+  color: var(--e-global-color-primary);
   margin-bottom: 18px;
 }
 .consultation-section .consultation_content p {
-  color: var(--e-global-color-light-white);
+  color: var(--e-global-color-primary);
   margin-right: 40px;
 }
 .consultation-section .consultation_wrapper {
@@ -3034,7 +3044,7 @@ p {
 .contact-section .contact-box .box-content {
   position: relative;
   padding-left: 34px;
-  margin-top: 14px;
+  margin-top: 24px;
   display: inline-block;
   width: 74%;
 }
