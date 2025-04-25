@@ -347,9 +347,8 @@ p {
   z-index: 0;
 }
 .banner-section .banner_wrapper .banner-image {
-  position: absolute;
-  right: 0px;
-  top: -80px;
+  display: flex;
+  justify-content: center;
   z-index: 1;
 }
 .banner-section .banner_wrapper .banner-image img {
@@ -972,7 +971,7 @@ p {
   color: var(--e-global-color-light-white);
 }
 .about-section .about_content .text1 {
-  margin-bottom: 8px;
+  margin-bottom: 36px;
 }
 .about-section .about_content .text2 {
   margin-bottom: 38px;
@@ -1966,7 +1965,7 @@ p {
   background-color: var(--e-global-color-very-light-gray-mostly-white);
   position: relative;
   overflow: hidden;
-  padding: 120px 0 0;
+  padding: 120px 0 120px 0;
 }
 .aboutus-section .offer-toplayer {
   position: absolute;
@@ -2643,12 +2642,11 @@ p {
   outline: none;
 }
 .consultation-section {
-  background: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  padding: 120px 0;
+  padding: 200px 0 0 0;
 }
 .consultation-section::before {
   content: "";

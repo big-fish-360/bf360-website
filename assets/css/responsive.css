@@ -126,9 +126,7 @@
   .banner-section {
     padding: 100px 95px 165px;
   }
-  .banner-section .banner_content p {
-    margin-right: -45px;
-  }
+
   .banner-section .banner_content .get_started {
     padding: 15px 25px 15px 30px;
   }
@@ -182,7 +180,7 @@
     bottom: 78px;
   }
   .service-section .service-rightlayer {
-    bottom: -172px;
+    bottom: 0;
     right: 82px;
   }
   .offer-section .offer-circleimage {
@@ -338,7 +336,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 120px 0 0;
+    padding: 120px 0;
   }
   .aboutus-section .about_wrapper .aboutus-image1 {
     left: 40px;
@@ -1279,7 +1277,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 160px 0 0;
+    padding: 160px 0;
   }
   .aboutus-section .offer-toplayer img {
     width: 740px;
@@ -2632,7 +2630,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 64px 0 0;
+    padding: 64px 0;
   }
   .aboutus-section .offer-toplayer img {
     width: 600px;
@@ -3748,7 +3746,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 54px 0 0;
+    padding: 54px 0;
   }
   .aboutus-section .service_content h2 {
     padding: 0 110px;
@@ -4617,7 +4615,7 @@
   }
   /* About */
   .aboutus-section {
-    padding: 54px 0 0;
+    padding: 54px 0;
   }
   .aboutus-section .service_content h2 {
     padding: 0 30px;
@@ -4644,7 +4642,7 @@
     left: 0;
   }
   .aboutus-section .about_wrapper .aboutus-image1 img {
-    width: 305px;
+    width: 400px;
     border-radius: 0 110px 110px 110px;
   }
   .aboutus-section .about_wrapper .aboutus-image2 {
@@ -4671,7 +4669,7 @@
     padding: 0 120px;
   }
   .aboutus-section .about_wrapper .about-imagecircle {
-    right: 0;
+    right: 80px;
   }
   .aboutus-section .about_wrapper .about-imagecircle img {
     width: 90px;
