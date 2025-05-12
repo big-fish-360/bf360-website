@@ -1640,7 +1640,7 @@ p {
 /* Footer */
 
 .footer-section {
-  background: var(--e-global-color-very-dark-mostly-black-blue);
+  background: #06223c;
   position: relative;
   padding: 94px 0 0;
 }
