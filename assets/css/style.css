@@ -39,6 +39,7 @@ Project:  Technofy
 
 body {
   font-family: "Rajdhani", sans-serif;
+  position: relative;
 }
 
 .h1,

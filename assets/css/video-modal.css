@@ -1,0 +1,27 @@
+.modal-dialog {
+  max-width: 800px;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+.close {
+  position: absolute;
+  right: 12px;
+  top: 0;
+  z-index: 999;
+  font-size: 4rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
+.close:hover {
+  color: white;
+}
