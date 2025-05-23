@@ -3317,3 +3317,46 @@ p {
 .footer-text {
   text-align: left;
 }
+
+.service_flex {
+  max-width: 100%;
+  width: 1140px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto !important;
+  padding: 45px;
+}
+
+.service_img_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  justify-content: start;
+  padding: 0;
+}
+
+.service_asset_col {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  padding: 0;
+}
+
+.service_img_grid img {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 991px) {
+  .service_flex {
+    flex-direction: column;
+    padding: 15px;
+  }
+  .service_img_grid,
+  .service_asset_col {
+    order: 2;
+  }
+}

@@ -1976,6 +1976,8 @@
     position: static;
     border: none;
     box-shadow: none;
+    background: #d6d8e2;
+    margin: 0;
   }
   .navbar-nav .drop-down-pages .nav-item a {
     padding: 8px 20px !important;
