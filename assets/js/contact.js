@@ -1,4 +1,6 @@
 const form = document.getElementById("contactpage");
+const formSuccess = document.getElementById("form_success");
+const formTitle = document.getElementById("form_title");
 
 function handleSubmit(event) {
   event.preventDefault();
@@ -20,6 +22,8 @@ function handleSubmit(event) {
     function (response) {
       console.log("SUCCESS!", response.status, response.text);
       form.reset();
+      formSuccess.style.display = "block";
+      formTitle.style.display = "none";
     },
     function (error) {
       console.log("FAILED...", error);
