@@ -3360,3 +3360,11 @@ p {
     order: 2;
   }
 }
+
+.aboutus-section .about_wrapper .aboutus-image1 img {
+  width: 520px;
+}
+
+.aboutus-section .about_wrapper .aboutus-image2 img {
+  width: 220px;
+}

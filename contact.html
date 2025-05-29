@@ -309,9 +309,9 @@
                   <h4 class="heading">Email:</h4>
                   <p>
                     <a
-                      href="mailto:shannon.steitz@bigfish360.com"
+                      href="mailto:info@bigfish360.com"
                       class="text-decoration-none"
-                      >shannon.steitz@bigfish360.com</a
+                      >info@bigfish360.com</a
                     >
                   </p>
                 </div>
@@ -356,11 +356,7 @@
               <div class="need_content">
                 <h6 class="text-white">Write to us</h6>
                 <h2 class="text-white">send us a Message</h2>
-                <form
-                  id="contactpage"
-                  method="POST"
-                  action="./contact-form.php"
-                >
+                <form id="contactpage">
                   <div class="row">
                     <div class="col-12">
                       <div class="form-group mb-0">
@@ -369,6 +365,7 @@
                           class="form_style"
                           placeholder="Your Name:"
                           name="name"
+                          id="name"
                         />
                       </div>
                     </div>
@@ -378,7 +375,8 @@
                           type="email"
                           class="form_style"
                           placeholder="Your Email:"
-                          name="emailid"
+                          name="email"
+                          id="email"
                         />
                       </div>
                     </div>
@@ -388,7 +386,8 @@
                           class="form_style"
                           placeholder="Message"
                           rows="3"
-                          name="msg"
+                          name="message"
+                          id="message"
                         ></textarea>
                       </div>
                     </div>
@@ -613,5 +612,10 @@
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/animation_links.js"></script>
     <script src="assets/js/animation.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"
+    ></script>
   </body>
 </html>
